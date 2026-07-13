@@ -1,0 +1,17 @@
+# Virtual Environment
+.venv/
+
+# API Keys
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Chroma Database
+chroma-db/
+uploaded-chroma-db/
+vector store/
+
+# Temporary Files
+temp/
