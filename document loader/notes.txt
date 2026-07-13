@@ -1,0 +1,131 @@
+Machine Learning Notes
+
+Machine Learning (ML) is a branch of Artificial Intelligence (AI) that
+enables computers to learn from data without being explicitly
+programmed. Instead of following fixed rules, ML systems identify
+patterns in data and use those patterns to make predictions or
+decisions. ML is widely used in recommendation systems, fraud detection,
+medical diagnosis, self-driving cars, natural language processing,
+computer vision, finance, and many other domains.
+
+Types of Machine Learning
+
+1.  Supervised Learning Supervised learning uses labeled data. The model
+    learns from input-output pairs and predicts outputs for unseen
+    inputs. Common algorithms include Linear Regression, Logistic
+    Regression, Decision Trees, Random Forest, Support Vector Machines
+    (SVM), K-Nearest Neighbors (KNN), and Neural Networks. Applications
+    include spam detection, house price prediction, disease diagnosis,
+    and sentiment analysis.
+
+2.  Unsupervised Learning Unsupervised learning works with unlabeled
+    data. The goal is to discover hidden patterns or structures. Popular
+    techniques include K-Means Clustering, Hierarchical Clustering,
+    DBSCAN, and Principal Component Analysis (PCA). Applications include
+    customer segmentation, anomaly detection, and dimensionality
+    reduction.
+
+3.  Semi-Supervised Learning This approach combines a small amount of
+    labeled data with a large amount of unlabeled data. It is useful
+    when labeling data is expensive.
+
+4.  Reinforcement Learning In reinforcement learning, an agent interacts
+    with an environment and learns by receiving rewards or penalties.
+    Algorithms include Q-Learning and Deep Q Networks. Applications
+    include robotics, game playing, and autonomous systems.
+
+Machine Learning Workflow
+
+The typical ML workflow includes: - Problem definition - Data
+collection - Data cleaning - Exploratory Data Analysis (EDA) - Feature
+engineering - Data splitting into training and testing sets - Model
+selection - Model training - Model evaluation - Hyperparameter tuning -
+Deployment - Monitoring and maintenance
+
+Data Preprocessing
+
+Data preprocessing improves data quality before training. Important
+steps: - Handling missing values - Removing duplicates - Encoding
+categorical variables - Feature scaling (Normalization and
+Standardization) - Handling outliers - Feature selection
+
+Common Algorithms
+
+Linear Regression predicts continuous values. Logistic Regression
+performs binary classification. Decision Trees split data based on
+feature values. Random Forest combines many decision trees for better
+accuracy. KNN classifies data based on nearest neighbors. SVM finds the
+best separating hyperplane. Naive Bayes uses probability theory.
+Gradient Boosting, XGBoost, LightGBM, and CatBoost are powerful ensemble
+methods. Neural Networks are inspired by the human brain and form the
+basis of Deep Learning.
+
+Evaluation Metrics
+
+For Regression: - MAE - MSE - RMSE - R² Score
+
+For Classification: - Accuracy - Precision - Recall - F1 Score -
+ROC-AUC - Confusion Matrix
+
+Overfitting and Underfitting
+
+Overfitting occurs when a model memorizes training data and performs
+poorly on new data. Underfitting occurs when a model is too simple to
+learn the underlying patterns. Solutions include cross-validation,
+regularization, more data, feature selection, and hyperparameter tuning.
+
+Cross Validation
+
+Cross-validation evaluates model performance by dividing data into
+multiple folds. K-Fold Cross Validation is the most common technique.
+
+Feature Engineering
+
+Feature engineering creates meaningful features from raw data. Good
+features often improve model performance more than changing algorithms.
+
+Hyperparameters
+
+Hyperparameters are settings chosen before training, such as learning
+rate, number of trees, maximum depth, batch size, and epochs.
+
+Bias-Variance Tradeoff
+
+High bias causes underfitting. High variance causes overfitting. A good
+model balances both.
+
+Popular Libraries
+
+Python libraries include NumPy, Pandas, Matplotlib, Scikit-learn,
+TensorFlow, PyTorch, XGBoost, LightGBM, CatBoost, OpenCV, and Hugging
+Face Transformers.
+
+Applications
+
+Machine Learning is used in recommendation systems, image recognition,
+speech recognition, fraud detection, stock prediction, healthcare,
+agriculture, cybersecurity, marketing, and chatbots.
+
+Advantages
+
+-   Automates decision making
+-   Learns from data
+-   Improves over time
+-   Handles large datasets
+-   High prediction accuracy
+
+Limitations
+
+-   Requires quality data
+-   Computationally expensive
+-   Can be biased
+-   Difficult to interpret in some models
+-   Needs regular monitoring
+
+Conclusion
+
+Machine Learning is one of the most important technologies in modern
+Artificial Intelligence. Understanding data preprocessing, algorithms,
+evaluation metrics, feature engineering, and deployment is essential for
+building reliable ML systems. Continuous practice with real-world
+datasets and projects is the best way to master Machine Learning.
