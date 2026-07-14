@@ -1,36 +1,25 @@
-# LangChain
+streamlit==1.48.1
+
 langchain==0.3.26
 langchain-core==0.3.74
 langchain-community==0.3.27
 langchain-text-splitters==0.3.9
 
-# Mistral
-langchain-mistralai==0.2.11
-mistralai==1.9.3
+langchain-chroma==0.2.5
+chromadb==1.0.15
 
-# HuggingFace
 langchain-huggingface==0.3.1
 sentence-transformers==4.1.0
 transformers==4.53.3
 huggingface-hub==0.36.2
 accelerate==1.10.1
 
-# Chroma
-langchain-chroma==0.2.5
-chromadb==0.5.23
+langchain-mistralai==0.2.11
+mistralai==1.9.3
 
-# PDF
 pypdf==6.0.0
-
-# Environment
 python-dotenv==1.1.1
 
-# Streamlit
-streamlit==1.48.1
-
-# ML
 torch
-numpy==2.3.2
-
-# HTTP
-requests==2.32.4
+numpy
+requests
