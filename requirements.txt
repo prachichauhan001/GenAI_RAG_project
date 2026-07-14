@@ -1,58 +1,39 @@
-# =========================
 # LangChain
-# =========================
 langchain==0.3.26
 langchain-core==0.3.74
 langchain-community==0.3.27
 langchain-text-splitters==0.3.9
 
-# =========================
 # Mistral
-# =========================
 langchain-mistralai==0.2.11
 mistralai==1.9.3
 
-# =========================
-# HuggingFace Embeddings
-# =========================
+# HuggingFace
 langchain-huggingface==0.3.1
 sentence-transformers==4.1.0
 transformers==4.53.3
 huggingface-hub==0.36.2
 accelerate==1.10.1
 
-# =========================
-# ChromaDB
-# =========================
+# Chroma
 langchain-chroma==0.2.5
 chromadb==1.0.15
 
-# =========================
-# PDF Loader
-# =========================
+# PDF
 pypdf==6.0.0
 
-# =========================
-# Environment Variables
-# =========================
+# Environment
 python-dotenv==1.1.1
 
-# =========================
-# Token Counter
-# =========================
+# Tokenizer
 tiktoken==0.11.0
 
-# =========================
-# Web UI
-# =========================
+# Streamlit
 streamlit==1.48.1
 
-# =========================
-# ML Dependencies
-# =========================
+# ML
+torch
 numpy==2.3.2
 
-# =========================
 # HTTP
-# =========================
 requests==2.32.4
